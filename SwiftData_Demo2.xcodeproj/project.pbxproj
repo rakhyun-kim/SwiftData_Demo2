@@ -11,6 +11,8 @@
 		5005B8A32B0D6200004F3BF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5005B8A22B0D6200004F3BF0 /* ContentView.swift */; };
 		5005B8A52B0D6202004F3BF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5005B8A42B0D6202004F3BF0 /* Assets.xcassets */; };
 		5005B8A82B0D6202004F3BF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5005B8A72B0D6202004F3BF0 /* Preview Assets.xcassets */; };
+		5005B8AF2B0D6215004F3BF0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5005B8AE2B0D6215004F3BF0 /* Person.swift */; };
+		5005B8B12B0D74D6004F3BF0 /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5005B8B02B0D74D6004F3BF0 /* PeopleListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5005B8A22B0D6200004F3BF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5005B8A42B0D6202004F3BF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5005B8A72B0D6202004F3BF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5005B8AE2B0D6215004F3BF0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5005B8B02B0D74D6004F3BF0 /* PeopleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				5005B8A02B0D6200004F3BF0 /* SwiftData_Demo2App.swift */,
 				5005B8A22B0D6200004F3BF0 /* ContentView.swift */,
+				5005B8B02B0D74D6004F3BF0 /* PeopleListView.swift */,
+				5005B8AE2B0D6215004F3BF0 /* Person.swift */,
 				5005B8A42B0D6202004F3BF0 /* Assets.xcassets */,
 				5005B8A62B0D6202004F3BF0 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5005B8A32B0D6200004F3BF0 /* ContentView.swift in Sources */,
+				5005B8AF2B0D6215004F3BF0 /* Person.swift in Sources */,
 				5005B8A12B0D6200004F3BF0 /* SwiftData_Demo2App.swift in Sources */,
+				5005B8B12B0D74D6004F3BF0 /* PeopleListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
